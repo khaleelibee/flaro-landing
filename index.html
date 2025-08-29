@@ -6,6 +6,13 @@
     <title>Flaro</title>
 
     <style>
+    /* Custom color for trial button */
+    .custom-trial-btn {
+      background-color: #4940E7 !important;
+      color: #fff !important;
+      
+      border: none;
+    }
     /* Make grid images smaller while keeping grid layout */
     .grid-logo-img {
       width: 80px;
@@ -15,7 +22,7 @@
       margin-left: auto;
       margin-right: auto;
     }
-
+  
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
@@ -23,8 +30,9 @@
     <!-- NavBar -->
      <div class="container-lg">
 
-         <nav class="navbar navbar-expand-lg ">
-      <div class="container-fluid">
+         <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid test">
+        
         <a class="navbar-brand" href="#">
             <Img src="Assets/flaro-log.png" class="rounded-circle me-1"></Img>
             <span class="brand-name">Flaro</span>
@@ -40,8 +48,8 @@
             <a class="nav-link" href="#">Resources</a>
             <a class="nav-link" href="#">Pricing</a>
             
-            <a class="nav-link btn bg-primary text-light">Join for 30 days</a>
-          </div>
+        </div>
+        <a class="btn custom-trial-btn ms-auto">Join for 30 days</a>
         </div>
       </div>
     </nav>
@@ -52,7 +60,7 @@
       <div class="container">
         <p class="display-2 fw-bold">Understand customers better than anyone</p>
         <p>Get the best-in-class group mentoring plans and professional benefits for your team</p>
-        <a href="#" class="btn bg-primary-subtle">Start 14 days free trial</a>
+  <a href="#" class="btn custom-trial-btn">Start 14 days free trial</a>
         <p class="text-muted">No credit card required . Cancel anytime</p>
       </div>
 
